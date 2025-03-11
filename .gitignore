@@ -1,0 +1,44 @@
+# Ignore Arduino IDE build files
+*.elf
+*.hex
+*.bin
+*.ino.linux
+*.ino.win
+*.arduino
+
+# Ignore Arduino compiled object files
+*.o
+*.a
+*.so
+
+# Ignore ROS workspace build and install directories
+/devel/
+/build/
+/install/
+
+# Ignore ROS logs
+*.log
+*.out
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE configurations (e.g., VSCode, IntelliJ, etc.)
+.vscode/
+.idea/
+
+# Ignore other temporary and IDE specific files
+*.swp
+*.swo
+
+# Ignore compiled CMake files
+CMakeCache.txt
+CMakeFiles/
+
+# Ignore platform-specific files
+*.sublime-workspace
+*.sublime-project
+
+# Ignore any sensitive or secret configuration files (like API keys)
+config/secrets.json
