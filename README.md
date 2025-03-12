@@ -20,23 +20,14 @@ run arduino using below code or by search icon via application menu;
 ```arduino```
 
 ## Arduino programming
-1. First need to install essential libraries;
+### <u>[First Try](First_Try.md)</u>
+Included all the details about how started this project and firstly connection establishment with start to communicate with Arduino Uno board.
 
-```sudo apt install ros-noetic-rosserial```
+![First_Try_Result](img/First_Try.png)
 
-```sudo apt install ros-noetic-rosserial-arduino```
-
-```sudo apt install ros-noetic-rosserial-python```
-
-2. Then created a folder to save arduino sketches and codes in home folder. _I creatd as "**ArduinoSketches**" in home folder._
-
-3. Then opend Arduino IDE and change the library installation location for above folder.
-
-4. Install ROS Communication library via Arduino IDE.
-
-
-
-<continue..>
+### <u>[Second Try](Second_Try.md)</u>
+This is about send message from ROS to Arduino board and then get the response from arduino board to ROS.
+![First_Try_Result](img/First_Trysd.png)
 
 ## Conslusion
 ## Future enhancement
