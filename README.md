@@ -27,8 +27,11 @@ Included all the details about how started this project and firstly connection e
 
 ### <u>[Second Try](Second_Try.md)</u>
 This is about send message from ROS to Arduino board and then get the response from arduino board to ROS.
-![First_Try_Result](img/First_Trysd.png)
 
+![Second Try Subscriber](img/secondTrySubscriber.png)
+
+<!-- ### <u>[Final Try](Final_Try.md)</u> -->
+<!-- Will be talk about to complete the aimed task to light a LED using as per the ROS command. -->
 
 
 
