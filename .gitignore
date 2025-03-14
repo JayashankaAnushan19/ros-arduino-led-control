@@ -20,6 +20,9 @@
 *.log
 *.out
 
+# Ignore below files
+testFiles
+
 # Ignore system files
 .DS_Store
 Thumbs.db
