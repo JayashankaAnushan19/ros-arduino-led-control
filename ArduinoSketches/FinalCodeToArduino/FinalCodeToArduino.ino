@@ -12,18 +12,18 @@ void callBackFunction(const std_msgs::Int32 &inputMessage){
   outputMessage.data=2*inputMessage.data;
   if (inputMessage.data == 1){
     digitalWrite(LED1, HIGH);  // Turn LED1 on
-    delay(500);               // Wait for a second
     digitalWrite(LED2, LOW);   // Turn LED1 off
-    delay(500);
     outputMessage.data = 1;
   }
   else if (inputMessage.data == 2){
     digitalWrite(LED2, HIGH);  // Turn LED1 on
-    delay(500);               // Wait for a second
     digitalWrite(LED1, LOW);   // Turn LED1 off
-    delay(500);  
     outputMessage.data = 2;
     }
+  else{
+    digitalWrite(LED2, LOW);  // Turn LED1 on
+    digitalWrite(LED1, LOW);   // Turn LED1 off
+  }
   pub.publish(&outputMessage);
 }
 
